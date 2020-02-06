@@ -5,4 +5,4 @@
       - name: Encender Firewalld
         service:
           name: firewalld
-          state: start
+          state: started
