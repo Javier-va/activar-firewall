@@ -1,0 +1,8 @@
+---
+ - name: Playbook para Ansible Tower
+   hosts: all
+   tasks:
+      - name: Encender Firewalld
+        service:
+          name: firewalld
+          state: start
